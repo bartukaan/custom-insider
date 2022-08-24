@@ -1,0 +1,37 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_insider (3.3.0+nh):
+    - Flutter
+    - InsiderHybrid (= 1.2.1)
+    - InsiderMobile (= 12.5.2)
+  - InsiderHybrid (1.2.1)
+  - InsiderMobile (12.5.2)
+  - InsiderMobileAdvancedNotification (1.2.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_insider (from `.symlinks/plugins/flutter_insider/ios`)
+  - InsiderMobileAdvancedNotification
+
+SPEC REPOS:
+  trunk:
+    - InsiderHybrid
+    - InsiderMobile
+    - InsiderMobileAdvancedNotification
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_insider:
+    :path: ".symlinks/plugins/flutter_insider/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_insider: 2fd97a67f9ea4da2deda268a38d6097490574578
+  InsiderHybrid: 89e1534ee0e70514748c5426981f8fa2c5dc6f05
+  InsiderMobile: 6c0def28487ac5a994055f042495ab8905e99959
+  InsiderMobileAdvancedNotification: adec892c8fc97d88246e238c74926f4a94f1d803
+
+PODFILE CHECKSUM: 25d638da88feac6cf97da20230138b8c489d29e3
+
+COCOAPODS: 1.11.2
